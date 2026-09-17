@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints (large binary files > 100MB)
+*.pth
+*.pt
+*.bin
+*.h5
+checkpoints/*.pth
+checkpoints/*.pt
+!checkpoints/.gitkeep
+
+# Datasets and large archives
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.dicom
+*.dcm
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
